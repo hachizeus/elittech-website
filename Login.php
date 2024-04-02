@@ -1,4 +1,20 @@
-<?php
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar1.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Add Font Awesome -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <style>
+        /* Your CSS styles */
+    </style>
+</head>
+
+<body>
+    <?php
 session_start(); // Start session to use session variables
 
 include ("include/connection.php");
@@ -42,21 +58,6 @@ if (isset($error['submit'])) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar1.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Add Font Awesome -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <style>
-        /* Your CSS styles */
-    </style>
-</head>
-
-<body>
 
     <!-- Navigation Bar -->
     <!-- Your HTML code -->
